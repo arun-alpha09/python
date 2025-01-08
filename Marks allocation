@@ -1,0 +1,10 @@
+per=int(input())
+
+if per<40:
+    print(f"faied {per}")
+elif per >=40 and per<55:
+    print(f" fair{per}")
+elif per >=55 and per <65:
+    print(f" good {per}")
+else:
+    print(f" excellent {per}")

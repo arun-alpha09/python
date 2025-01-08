@@ -1,0 +1,16 @@
+age=int(input())
+gender=input().lower()
+days=int(input())
+
+if (age>=18and age<30):
+    if gender=="m":
+        print(f" wage = {days*700}")
+    else:
+        print(f" wages= {days*750}")
+elif(age>=30and age<=40):
+    if gender=="m":
+        print(f"wages = {days*800}")
+    else:
+       print(f"wages = {days*800}") 
+else:
+    print("data not appropriate")

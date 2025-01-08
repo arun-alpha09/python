@@ -1,0 +1,11 @@
+a,b,c=map(int,input().split())
+
+if (a>0 and b>0 and c >0) and ((a+b+c)==180) and (a==b==c):
+    print(f" its an equilateral triangle{a,b,c}")
+elif (a>0 and b>0 and c >0) and ((a+b+c==180))and(a!=b!=c):
+    print(f" its an scalene triangle{a,b,c}")
+elif(a>0 and b>0 and c >0) and ((a+b+c==180))and (a==b or b==a or a==c or b==c):
+    print(f" isosceles triangle{a,b,c}")
+else:
+    print(" its not a triangle")
+    

@@ -1,0 +1,17 @@
+num1,num2=map(int,input().split())
+opr=input("enter the opr")
+
+if opr=="+":
+    print(f"{num1+num2} added value")
+elif opr=="-":
+    print(f"{num1-num2} sub values")
+elif opr=="*":
+    print(f"{num1*num2} mul value")
+elif opr=="/":
+    print(f"{num1/num2} div value")
+elif opr=="//":
+    print(f"{num1//num2} floor div")
+elif opr=="**":
+    print(f"{num1**num2} power value is")
+else:
+    print(" enter in poper order")

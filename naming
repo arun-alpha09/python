@@ -1,0 +1,28 @@
+month = int(input('enter a number '))
+
+if month==1:
+    print(f' jan 31 days {1}' )
+elif month ==2:
+    print(f'feb 28 days {2}')
+elif month ==3:
+    print(f'mar 31 days {3}')
+elif month ==4:
+    print(f'apr 30 days {4}')
+elif month ==5:
+    print(f'may 31 days {5}')
+elif month ==6:
+    print(f'jun 31 days {6}')
+elif month ==7:
+    print(f'jul 30 days {7}')
+elif month ==8:
+    print(f'aug 31 days {8}')
+elif month ==9:
+    print(f'sep 30 days {9}')
+elif month ==10:
+    print(f'oct 31 days {10}')
+elif month ==11:
+    print(f'nov 30 days {11}')
+elif month ==12:
+    print(f'dec 31 days {12}')
+else:
+    print('enter the valid num')

@@ -1,0 +1,10 @@
+city =input("enter the city name").lower()
+
+if city == "delhi":
+    print(f"redfort in  {city}")
+elif city == "agra":
+    print(f" tajmahal in {city}")
+elif city == "jaipur":
+    print(f"jal mahal in {city}" )
+else:
+    print("enter a valid city")
